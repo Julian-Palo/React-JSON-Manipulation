@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family:
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  width: 100%;
+  color: black;
+  display: flex;
+  position: fixed;
+}
+
+button {
+  justify-content: center;
+  display: flex;
+  padding: 5px;
+  width: 100%;
+}
+
+button:active {
+  background-color: black;
+  color: aliceblue;
+}
+
+table {
+  padding-top: 52px;
+  width: 100%;
+  border: 1px solid #333;
+  border-collapse: seperates;
+}
+
+td {
+  font-size: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  word-wrap: break-word; /* Prevents text from spilling out of the squished cells */
+}
